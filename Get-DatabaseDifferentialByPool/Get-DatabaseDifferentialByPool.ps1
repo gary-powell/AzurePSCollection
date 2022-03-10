@@ -1,6 +1,6 @@
 # Write csv files containing databases that are in one pool that don't have a corresponding secondary database in another pool
 # Used to calculate drift from Primary and Secondary Azure sql servers with Failover Groups and Elastic Pools
-function Get-DatabasesDifferentialByPool
+function Get-DatabaseDifferentialByPool
 {
     param 
     (
